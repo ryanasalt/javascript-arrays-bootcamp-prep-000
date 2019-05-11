@@ -31,3 +31,9 @@ function addElementToEndOfArray(array, itemToAdd){
 function destructivelyAddElementToEndOfArray(array, itemToAdd){
   return [array, ...itemToAdd];
 }
+
+//TODO: Define a function in `arrays.js` called `accessElementInArray`. The function should accept an array and an index and return the element at that index.
+
+function accessElementInArray(array, index){
+  return array[index];
+}
