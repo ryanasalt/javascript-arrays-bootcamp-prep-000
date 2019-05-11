@@ -23,12 +23,12 @@ function destructivelyAddElementToBeginningOfArray(array, itemToAdd){
 TODO: Define two more functions, `addElementToEndOfArray` and `destructivelyAddElementToEndOfArray`. These functions also take two arguments, an array and an element to add to the end of the array. `addElementToEndOfArray` **should not** alter the original array; `destructivelyAddElementToEndOfArray` **should** alter the original array.
 */
 function addElementToEndOfArray(array, itemToAdd){
-  var newArray = [array, ...itemToAdd];
+  var newArray = [...array, itemToAdd];
   return newArray;
 }
 
 function destructivelyAddElementToEndOfArray(array, itemToAdd){
-  return [array, ...itemToAdd];
+  return [...array, itemToAdd];
 }
 
 //TODO: Define a function in `arrays.js` called `accessElementInArray`. The function should accept an array and an index and return the element at that index.
