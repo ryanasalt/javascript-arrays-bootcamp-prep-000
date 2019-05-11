@@ -14,8 +14,8 @@ function addElementToBeginningOfArray(array, itemToAdd){
   
 }
 
-function addElementToBeginningOfArray(array, itemToAdd){
-
+function destructivelyAddElementToBeginningOfArray(array, itemToAdd){
+  
 }
 
 /*
