@@ -37,3 +37,5 @@ function destructivelyAddElementToEndOfArray(array, itemToAdd){
 function accessElementInArray(array, index){
   return array[index];
 }
+
+//TODO: Define a function in `arrays.js` called `destructivelyRemoveElementFromBeginningOfArray` that takes an array as its only argument and removes the first element. Your function should then return the entire array, and it **should** mutate the array.
