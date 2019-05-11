@@ -40,7 +40,8 @@ function accessElementInArray(array, index){
 
 //TODO: Define a function in `arrays.js` called `destructivelyRemoveElementFromBeginningOfArray` that takes an array as its only argument and removes the first element. Your function should then return the entire array, and it **should** mutate the array.
 function destructivelyRemoveElementFromBeginningOfArray(array){
-  return array.shift();
+  array.shift()
+  return array;
 }
 
 //TODO: Define a function in `arrays.js` called `removeElementFromBeginningOfArray`. It takes an `array` as its only argument. The function should remove the first element in the array. This function should return the _entire_ array in the same line, and it **should not** mutate the original array.
