@@ -53,3 +53,9 @@ function removeElementFromBeginningOfArray(array){
 function destructivelyRemoveElementFromEndOfArray(array){
   return array.pop();
 }
+
+//TODO: Define a function in `arrays.js` called `removeElementFromEndOfArray` that takes an array as its only argument and removes the last element. Your function should return the array without the last element, and it **should not** mutate the original array.
+function removeElementFromEndOfArray(array){
+  var newArray = array.pop();
+  return newArray;
+}
